@@ -1,0 +1,6 @@
+framework module Pods_Pham_Hong_Duy_Notes {
+  umbrella header "Pods-Pham Hong Duy Notes-umbrella.h"
+
+  export *
+  module * { export * }
+}

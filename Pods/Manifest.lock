@@ -1,0 +1,63 @@
+PODS:
+  - Firebase/CoreOnly (8.8.0):
+    - FirebaseCore (= 8.8.0)
+  - Firebase/Database (8.8.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (~> 8.8.0)
+  - FirebaseCore (8.8.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.4)
+    - GoogleUtilities/Logger (~> 7.4)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseDatabase (8.8.0):
+    - FirebaseCore (~> 8.0)
+    - leveldb-library (~> 1.22)
+  - GoogleDataTransport (9.2.3):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Environment (7.11.1):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.11.1):
+    - GoogleUtilities/Environment
+  - leveldb-library (1.22.2)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
+  - PromisesObjC (2.2.0)
+
+DEPENDENCIES:
+  - Firebase/Database (= 8.8.0)
+
+SPEC REPOS:
+  trunk:
+    - Firebase
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseDatabase
+    - GoogleDataTransport
+    - GoogleUtilities
+    - leveldb-library
+    - nanopb
+    - PromisesObjC
+
+SPEC CHECKSUMS:
+  Firebase: 629510f1a9ddb235f3a7c5c8ceb23ba887f0f814
+  FirebaseCore: 98b29e3828f0a53651c363937a7f7d92a19f1ba2
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseDatabase: bc4610ff3a816dcc680c1dbccf7f9f4bd94ac07d
+  GoogleDataTransport: f0308f5905a745f94fb91fea9c6cbaf3831cb1bd
+  GoogleUtilities: 9aa0ad5a7bc171f8bae016300bfcfa3fb8425749
+  leveldb-library: f03246171cce0484482ec291f88b6d563699ee06
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  PromisesObjC: 09985d6d70fbe7878040aa746d78236e6946d2ef
+
+PODFILE CHECKSUM: 8b00e84f424c87b0b14d8ff712add50c0cf6872c
+
+COCOAPODS: 1.12.1
